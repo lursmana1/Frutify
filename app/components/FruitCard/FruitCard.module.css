@@ -1,0 +1,102 @@
+.fruitCard {
+  display: flex;
+  width: 342px;
+  padding: 24px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  border: 4px solid #000;
+  background: #03d1aa;
+  box-shadow: 4px 4px 0px 0px #000;
+}
+.imageWrapper {
+  background-color: white;
+  display: flex;
+  width: 294px;
+  height: 200px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  border: 4px solid #000;
+  background: #fff;
+  box-shadow: 2px 4px 0px 0px #000;
+  position: relative;
+}
+.fruitName {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.fruitname {
+  color: #000;
+  font-family: Inconsolata;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+.fruitColor {
+  color: #000;
+  font-family: Inconsolata;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.fruitDescription {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.fruitPrice {
+  color: #000;
+  text-align: right;
+  font-family: Inconsolata;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+.fruitBuyNow {
+  display: flex;
+  padding: 16px 0px;
+  justify-content: center;
+  align-items: flex-start;
+  align-self: stretch;
+  border-radius: 8px;
+  border: 2px solid #000;
+  background: #ffb800;
+  box-shadow: 2px 4px 0px 0px #000;
+  text-decoration: none;
+}
+.buyNowText {
+  color: #000;
+  text-align: right;
+  font-family: Inconsolata;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 16px;
+  text-decoration: none;
+}
+.iconsWrapper {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  display: flex;
+  gap: 8px;
+}
+.iconWrapper {
+  display: flex;
+  padding: 8px;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  border: 2px solid #000;
+  background: #ffb800;
+  box-shadow: 2px 4px 0px 0px #000;
+}

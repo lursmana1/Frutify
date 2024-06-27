@@ -1,0 +1,16 @@
+.emptyStateWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content : center;
+    align-items: center;
+    gap: 32px;
+  }
+  .emptyStateText {
+    color: #000;
+    font-family: Inconsolata;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+  }
+  

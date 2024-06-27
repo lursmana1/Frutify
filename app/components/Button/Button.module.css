@@ -1,0 +1,23 @@
+.fruitBuyNow {
+  display: flex;
+  height: 72px;
+  padding: 21px 28px;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+  align-self: stretch;
+  border-radius: 8px;
+  border: 2px solid #000;
+  background: #ffb800;
+  box-shadow: 2px 4px 0px 0px #000;
+}
+.buyNowText {
+  color: #000;
+  text-align: right;
+  font-family: Inconsolata;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 16px;
+  white-space: nowrap;
+}
